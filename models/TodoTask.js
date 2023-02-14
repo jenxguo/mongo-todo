@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// Schema Concept
 const todoTaskSchema = new mongoose.Schema({
     content: {
         type: String,
